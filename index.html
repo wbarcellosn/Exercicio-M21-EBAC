@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./dist/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+        <title>Exercicio - M21</title>
+    </head>
+    <body>
+        <header>
+            <section class="hero">
+                <div class="hero__contain">
+                    <div>
+                        <h1 class="hero__title">Forrest Gump</h1>
+                        <h2 class="hero__subtitle">O contador de Histórias</h2>
+                    </div>
+                    <button class="hero__button">
+                        <a class="hero__button__link" href="https://play.google.com/store/movies/details?id=bwVGdGOOKHY" target="_blank">Alugar o Filme</a>
+                    </button>
+                </div>
+                <img class="hero__img" src="./dist/images/hero-section/forrest-gump-background-removebg.png" alt="Forrest Gump">
+            </section>
+        </header>
+        <main>
+            <section class="history container">
+                <div class="history__img">
+                    <img src="./dist/images/history-section/forrest-gump-sentado.jpg" alt="">
+                </div>
+                <div class="history__text">
+                    <p>
+                        Lançado em 7 de dezembro de 1994, escrito por Eric Roth, dirigido por Robert Zemeckis e estrelado por Tom Hanks, o filme retrata quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump (Tom Hanks), um rapaz com QI abaixo da média e boas intenções.
+                    </p>
+                    <p>
+                        Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e Watergate, mas continua pensando no seu amor de infância, Jenny Curran.
+                    </p>
+                </div>
+            </section>
+            <section class="informations container">
+                <nav class="tabs">
+                    <button class="tabs__button tabs__button--is-active" type="button" data-tab-button="cast">
+                        Elenco Principal
+                    </button>
+                    <button class="tabs__button" type="button" data-tab-button="curiosities">
+                        Curiosidades
+                    </button>
+                </nav>
+                <ul class="informations__item informations__item--is-active cast" data-tab-id="cast">
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-14100/" target="_blank">
+                            <img class="cast__item__img" src="./dist/images/cast/tom-hanks.png" alt="Tom Hanks">
+                        </a>
+                        <h3 class="cast__item__name">Tom Hanks</h3>
+                        <p class="cast__item__character">Forrest Gump</p>
+                    </li>
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-14624/">
+                            <img class="cast__item__img" src="./dist/images/cast/gary-sinise.png" alt="Gary Sinise">
+                        </a>
+                        <h3 class="cast__item__name">Gary Sinise</h3>
+                        <p class="cast__item__character">Tenente Dan</p>
+                    </li>
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-8407/">
+                            <img class="cast__item__img" src="./dist/images/cast/robin-wright.png" alt="TRobin Wright">
+                        </a>
+                        <h3 class="cast__item__name">Robin Wright</h3>
+                        <p class="cast__item__character">Jenny</p>
+                    </li>
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-14086/">
+                            <img class="cast__item__img" src="./dist/images/cast/mykelti-williamson.png" alt="Mykelti Williamson">
+                        </a>
+                        <h3 class="cast__item__name">Mykelti Williamson</h3>
+                        <p class="cast__item__character">Bubba Blue</p>
+                    </li>
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-119/">
+                            <img class="cast__item__img" src="./dist/images/cast/sally-field.png" alt="Sally Field">
+                        </a>
+                        <h3 class="cast__item__name">Sally Field</h3>
+                        <p class="cast__item__character">Sra. Gump</p>
+                    </li>
+                    <li class="cast__item">
+                        <a href="https://www.adorocinema.com/personalidades/personalidade-24773/">
+                            <img class="cast__item__img" src="./dist/images/cast/haley-j-osment.png" alt="Haley J. Osment">
+                        </a>
+                        <h3 class="cast__item__name">Haley J. Osment</h3>
+                        <p class="cast__item__character">Forrest Gump Jr.</p>
+                    </li>
+                </ul>
+                <ul class="informations__item curiosities" data-tab-id="curiosities">
+                    <li class="curiosities__item">
+                        <img class="curiosities__item__img" src="./dist/images/curiosities/tom-hanks-oscar.png" alt="Tom Hanks">
+                        <div>
+                            <h3 class="curiosities__item__title">Ator Premiado</h3>
+                            <p class="curiosities__item__text">
+                                Ao receber o Oscar de melhor ator por Forrest Gump, Tom Hanks igualou a marca de Spencer Tracy, que até então era o único ator a ter ganho o Oscar por dois anos consecutivos.
+                            </p>
+                            <p class="curiosities__item__text">
+                                O ator já havia sido premiado no ano anterior por sua atuação no filma Filadélfia.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosities__item">
+                        <img class="curiosities__item__img" src="./dist/images/curiosities/haley-joel-osment.png" alt="Haley Joel Osment">
+                        <div>
+                            <h3 class="curiosities__item__title">Menino Prodígio</h3>
+                            <p class="curiosities__item__text">
+                                Com apenas 5 anos de idade e uma ponta já no final do filme aparece Haley Joel Osment, que, 6 anos depois, seria indicado ao Oscar de Melhor Ator Coadjuvante, por sua atuação em O Sexto Sentido.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosities__item">
+                        <img class="curiosities__item__img" src="./dist/images/curiosities/cinema.png" alt="Sala de Cinema">
+                        <div>
+                            <h3 class="curiosities__item__title">Meses no Cinema</h3>
+                            <p class="curiosities__item__text">
+                                O filme estreou no Brasil em agosto de 1994 e permaneceu em cartaz até meados de abril do ano seguinte.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="curiosities__item">
+                        <img class="curiosities__item__img" src="./dist/images/curiosities/oscar.png" alt="Premio Oscar">
+                        <div>
+                            <h3 class="curiosities__item__title">Filme Vencedor</h3>
+                            <p class="curiosities__item__text">
+                                Em 1995, em noite do Oscar, o filme saiu como vencedor em 6 categorias.
+                            </p>
+                            <p class="curiosities__item__text">
+                                Sendo elas:
+                            </p>
+                            <p class="curiosities__item__text">
+                                Melhor Filme, Melhor Diretor, Melhor Ator, Melhor Roteiro Adaptado, Melhores Efeitos Especiais e Melhor Montagem.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy;Todos os direitos reservados</p>
+        </footer>
+        <script src="./dist/scripts/main.js"></script>
+    </body>
+</html>
